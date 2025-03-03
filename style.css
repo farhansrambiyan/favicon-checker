@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  width: 350px;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.favicon-list {
+  margin-top: 10px;
+}
+
+.favicon-item {
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.favicon-item.relevant {
+  background-color: #e6ffe6; /* Light Green */
+}
+
+.favicon-item.not-relevant {
+  background-color: #ffe6e6; /* Light Red */
+}
+
+.favicon-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between URL and toggle */
+  width: 100%;
+}
+
+.favicon-info {
+  display: flex;
+  align-items: center;
+}
+
+.favicon-img {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+.favicon-url {
+  font-size: 12px;
+  word-break: break-all;
+  margin-right: 10px;
+  color: #272727;
+}
+
+.toggle-details {
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.details {
+  margin-top: 10px;
+  padding-left: 40px;
+  font-size: 12px;
+  color: #555;
+}
+
+.details p {
+  margin: 5px 0;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+
+/* Style for the header image */
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.header-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style for the disclaimer */
+.disclaimer {
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.disclaimer a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.disclaimer a:hover {
+  text-decoration: underline;
+}
+
+
+.footer {
+    font-size: 12px;
+    color: #70757a;
+    margin-top: 44px;
+    text-align: center;
+}
+
+.imgl {
+    width: 120px;
+    height: auto;
+
+}
+
+@media (min-width: 360px) {
+    .container {
+        width: 360px;
+        margin: 0 auto;
+    }
+}
