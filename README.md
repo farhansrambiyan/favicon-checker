@@ -21,6 +21,10 @@ A Chrome extension designed to validate and analyze favicons on web pages. It ch
 ## Installation
 --------------
 
+Install from here: https://chromewebstore.google.com/detail/favicon-checker/gkbkmkhapefbndhkgnemkpeiifohhnpb
+
+Or
+
 1. Clone this repository or download the extension files.
 2. Go to `chrome://extensions/` in your Chrome browser.
 3. Enable *Developer Mode*.
